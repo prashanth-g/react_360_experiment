@@ -11,7 +11,7 @@ import {
 const {AudioModule} = NativeModules;
 
 AudioModule.playEnvironmental({
-  source: asset('path/to/audio.mp3'),
+  source: asset('music.mp3'),
   volume: 0.3, // play at 3/10 original volume
 });
 
